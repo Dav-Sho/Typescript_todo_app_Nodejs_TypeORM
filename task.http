@@ -1,0 +1,18 @@
+Get http://localhost:3000/api/v1/tasks
+Content-Type: application/json
+
+Post http://localhost:3000/api/v1/tasks
+Content-Type: application/json
+{
+    "title": "deleting testing",
+    "description": "Learning typescript with typeorm",
+    "date": "2022-02-28" ,
+    "priority": "normal",
+    "status": "todo"
+}
+Put http://localhost:3000/api/v1/tasks
+Content-Type: application/json
+{
+    "id": "69f75992-6ab1-43bc-88d1-3955e114e49a",
+    "status": "inProgress"
+}
